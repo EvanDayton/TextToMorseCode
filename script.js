@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const pauseMorseCodeButton = document.getElementById('pauseMorseCode');
 
     // Create audio elements for dot and dash sounds
-    const dotAudio = new Audio('dot.mp3'); // Replace with your dot sound file
-    const dashAudio = new Audio('dash.mp3'); // Replace with your dash sound file
+    const dotAudio = new Audio('dot.mp3'); 
+    const dashAudio = new Audio('dash.mp3'); 
 
     let isPlaying = false;
     let currentIndex = 0;
@@ -56,10 +56,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (symbol === '.') {
                 dotAudio.play();
-                setTimeout(playNextSymbol, 1000); // Dit: 1 unit
+                setTimeout(playNextSymbol, 1000); // Dot: 1 unit
             } else if (symbol === '-') {
                 dashAudio.play();
-                setTimeout(playNextSymbol, 3000); // Dah: 3 units
+                setTimeout(playNextSymbol, 3000); // Dash: 3 units
             } else if (symbol === ' ') {
                 setTimeout(playNextSymbol, 1000); // Intra-character space: 1 unit
             }
