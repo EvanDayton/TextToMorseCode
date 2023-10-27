@@ -3,7 +3,7 @@ body {
     text-align: center;
     background-color: #383a3b;
     color: white;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 h1 {
@@ -17,7 +17,7 @@ textarea {
 }
 
 div {
-    margin: 10px;
+    margin: 40px;
 }
 
 button {
@@ -58,3 +58,26 @@ button:hover {
     margin-left: 10px;
 }
 
+
+.below {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 106;
+    margin-top: 400px;
+  }
+  
+  .text {
+    font-weight: 100;
+    font-size: 50px;
+    color: #fafafa;
+    z-index: 106;
+  }
+  .dud {
+  
+    z-index: 106;
+  }
+  
+  .word {
+    z-index: 106;
+  }
